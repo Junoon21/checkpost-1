@@ -1,0 +1,303 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+/*custom styles */
+
+
+
+
+header {
+    background-color: rgb(5, 5, 49);
+    padding: 20px;
+    text-align: center;
+    
+   
+}
+a {
+    color: white;
+    font-size: 22px;
+    margin-right: 20px;
+    text-transform: uppercase;
+    text-decoration:none;
+}
+.green {
+    color: green;
+}
+h2 {
+    line-height: 1.5;
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+    text-align: center;
+    padding:20px;
+    margin: 20px;
+    
+}
+h4 {
+    font-size: 30px;
+    text-align: center;   
+    padding: 20px;
+    margin-bottom: 20px;
+    
+}
+.box {
+    background-color: #99D8CA;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto; 
+    border: 20px solid #0D1430;
+}
+.backgroundcolorblack {
+    background-color: #90FFA9;
+    padding: 20px;
+    border-radius: 16px;
+    display: inline-block;  
+}
+
+.backgroundcolorgreen {
+    background-color: #5873E2;
+     padding: 20px;
+    border-radius: 20px;
+    display: inline-block;
+   margin-bottom: 20px;   
+}
+.sec1 {
+    text-align: center;
+}
+.dot1 {
+    background-color: #99D8CA;                                                                                                                                                                                                                                                                                                             
+    height: 25px;
+    width: 25px;
+    display:inline-block;
+    border-radius: 50%;
+    vertical-align : middle;
+    margin: 0 12px;
+}
+.marker-container {
+    text-align: center;
+}
+.dot2{
+background-color: #0D1430;   
+width: 25px;
+height: 25px;
+display :inline-block;
+border-radius: 50%;
+vertical-align: middle;
+margin:0 12px;
+
+
+}
+.dot3 {
+background-color:#90FFA9;
+width: 25px;
+    height: 25px;
+    display :inline-block;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin: 0 12px;
+}
+
+.dot4 {
+background-color:#5873E2;
+width: 25px;
+    height: 25px;
+    display :inline-block;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin:0 12px;
+}
+hr {
+    width: 800px;
+    border-style:dashed;
+    margin-top: 28px;
+}
+.containerindex {
+    width: 600px;
+    height: 160px;
+    border:2px solid black;
+    margin: 0 auto;
+    margin-bottom: 70px;
+
+
+}
+.child {
+    background-color: rgb(44, 225, 238);
+    width: 100px;
+    height: 70px;
+    display: inline-block;
+    padding: 20px;
+    margin:22px;
+}
+.sec2 {
+        text-align: center;
+    }
+.seperate {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 800px;
+    border-style: dashed;
+}
+.border {
+    border: 1px solid black;
+}
+
+
+/*for blog.html */
+
+.container {
+    width: 900px;
+    border: 2px;
+    margin: 0 auto;
+    
+}
+.side {
+    display: inline-block;
+}
+
+h3{
+    color: rgb(16, 16, 92);
+    width: 100%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 29px;
+    display:inline;
+    padding-bottom: 10px;
+    font-weight:bolder;
+}
+
+button {
+    color: ghostwhite;
+    border:none ;
+    border-radius: 22px;
+    background-color: rgb(77, 199, 77);
+    display: block;
+    padding: 10px;
+    margin-top: 16px;
+    margin-bottom: 6px;
+
+}
+.buttonsize {font-size: 16px;
+    margin-right: 0px;
+    text-decoration: none;
+}
+.container{
+    width: 900px;
+    border: 2px solid rgb(250, 246, 246);
+    display: inline-block;
+}
+.childbox {
+    width: 400px;
+    height: 280px;
+    vertical-align:middle;
+    margin: 10px;
+    border: 2px solid rgb(250, 245, 245);
+    display:inline-block;
+}
+article {
+    text-align: center;
+    padding: 60px;
+}
+p {
+    font-size: 19px;
+    width: 100%;
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    margin-top: 5px;
+}
+img{
+    width: 400px;
+    height: 280px;
+    vertical-align:middle;
+    display: inline-block;
+
+
+}
+.sizing {
+    box-sizing: container-box;
+    display: inline-block;
+    vertical-align:middle;
+}
+.adjust {
+    width: 400px;
+    height: auto;
+    box-sizing: content-box;
+    display: inline-block;
+}
+.palign {
+    width: 400px;
+    display: block;
+    text-align: left;
+}
+.space {
+    margin: 6px;
+    display: block;
+  
+}
+.below {
+    color: rgb(85, 196, 85);
+    font-size: 16px;
+    padding: 9px 3px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    display:block;
+ 
+     font-weight:bolder;
+  
+}
+.block {
+    display: block;
+    text-align: left;
+}
+.nospace {
+    display: block;
+}
