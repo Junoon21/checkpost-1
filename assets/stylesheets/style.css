@@ -113,8 +113,8 @@ h4 {
 .sec1 {
     text-align: center;
 }
-.dot1 {
-    background-color: #99D8CA;                                                                                                                                                                                                                                                                                                             
+.dot {
+                                                                                                                                                                                                                                                                                                                
     height: 25px;
     width: 25px;
     display:inline-block;
@@ -122,39 +122,22 @@ h4 {
     vertical-align : middle;
     margin: 0 12px;
 }
+.lightblue {
+    background-color: #99D8CA; 
+}
+.darkblue {
+    background-color: #0D1430; 
+}
+.greend {
+    background-color:#90FFA9;
+}
+.persianblue {
+    background-color:#5873E2;
+}
 .marker-container {
     text-align: center;
 }
-.dot2{
-background-color: #0D1430;   
-width: 25px;
-height: 25px;
-display :inline-block;
-border-radius: 50%;
-vertical-align: middle;
-margin:0 12px;
 
-
-}
-.dot3 {
-background-color:#90FFA9;
-width: 25px;
-    height: 25px;
-    display :inline-block;
-    border-radius: 50%;
-    vertical-align: middle;
-    margin: 0 12px;
-}
-
-.dot4 {
-background-color:#5873E2;
-width: 25px;
-    height: 25px;
-    display :inline-block;
-    border-radius: 50%;
-    vertical-align: middle;
-    margin:0 12px;
-}
 hr {
     width: 800px;
     border-style:dashed;
@@ -162,7 +145,6 @@ hr {
 }
 .containerindex {
     width: 600px;
-    height: 160px;
     border:2px solid black;
     margin: 0 auto;
     margin-bottom: 70px;
@@ -195,8 +177,10 @@ hr {
 
 .container {
     width: 900px;
-    border: 2px;
     margin: 0 auto;
+    border-top: 2px solid rgb(250, 246, 246);
+    display: inline-block;
+    font-size: 0px;
     
 }
 .side {
@@ -211,6 +195,10 @@ h3{
     display:inline;
     padding-bottom: 10px;
     font-weight:bolder;
+}
+.small {
+    width: 400px;
+    height: 280px;
 }
 
 button {
@@ -228,44 +216,38 @@ button {
     margin-right: 0px;
     text-decoration: none;
 }
-.container{
-    width: 900px;
-    border: 2px solid rgb(250, 246, 246);
-    display: inline-block;
-}
+
 .childbox {
     width: 400px;
     height: 280px;
-    vertical-align:middle;
-    margin: 10px;
-    border: 2px solid rgb(250, 245, 245);
-    display:inline-block;
+    margin: 0px;
+    padding: 8px;
+    display: inline-block;
+    vertical-align: middle;
+  
+    font-size: 0px;
+   
 }
+
+
 article {
     text-align: center;
-    padding: 60px;
+    padding: 7px;
 }
 p {
     font-size: 19px;
     width: 100%;
-    display: block;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight:bold;
     margin-top: 5px;
 }
 img{
     width: 400px;
-    height: 280px;
     vertical-align:middle;
     display: inline-block;
+}
 
 
-}
-.sizing {
-    box-sizing: container-box;
-    display: inline-block;
-    vertical-align:middle;
-}
 .adjust {
     width: 400px;
     height: auto;
@@ -273,31 +255,41 @@ img{
     display: inline-block;
 }
 .palign {
-    width: 400px;
-    display: block;
     text-align: left;
+    display:inline-block;
 }
+
 .space {
-    margin: 6px;
-    display: block;
+    margin: 6px 0;
+    display: inline-block;
+   
   
 }
 .below {
     color: rgb(85, 196, 85);
     font-size: 16px;
-    padding: 9px 3px;
+    padding: 9px 0px;
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: underline;
     display:block;
- 
-     font-weight:bolder;
+    font-weight:bolder;
   
 }
+
+
+.nospace {
+    display: block;
+}
+
 .block {
     display: block;
     text-align: left;
 }
-.nospace {
-    display: block;
+span {
+    display: inline-block;
 }
+.uspace {
+    margin-top: 42px;
+}
+
